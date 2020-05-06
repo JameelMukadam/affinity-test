@@ -68,7 +68,6 @@ function MockDataProvider({ children }) {
       orders: tmpOrders
     }
     setMockData(tmpMockData);
-    console.log('mockData: ', tmpMockData)
     return newOrder.id;
   }, [mockData, setMockData])
 
